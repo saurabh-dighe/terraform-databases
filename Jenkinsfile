@@ -6,7 +6,7 @@ pipeline{
         {
             steps{
                 sh '''
-                    pwd
+                    cd /home/centos/terraform-databases
                     "git pull"
                     "terrafile -f ./env-dev/Terrafile"
                     "terraform init --backend-config=env-dev/backend-dev.tfvars"
