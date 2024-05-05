@@ -21,5 +21,5 @@ module "tf-module-mongodb" {
 #   ZONE                = var.ZONE
 # }
 output "private_subnet" {
-  value = module.tf-module-mongodb.outputs.private_subnet.*
+  value = module.tf-module-mongodb.private_subnet.*
 }
