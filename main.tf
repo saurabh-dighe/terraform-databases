@@ -1,7 +1,7 @@
 module "tf-module-mongodb" {
   source              = "./vendor/modules/mongodb"
   ENV                 = var.ENV
-  ZONE                = var.ZONE
+  # ZONE                = var.ZONE
 }
 
 # module "tf-module-redis" {
