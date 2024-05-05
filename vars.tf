@@ -1,5 +1,4 @@
 variable "ENV" {}
-variable "ZONE" {}
 
 
 
