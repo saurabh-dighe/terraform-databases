@@ -20,8 +20,3 @@ module "tf-module-mongodb" {
 #   ENV                 = var.ENV
 #   ZONE                = var.ZONE
 # }
-output "private_subnet" {
-  value = module.tf-module-mongodb.outputs.private_subnet.*
-}
-
-#ddd
