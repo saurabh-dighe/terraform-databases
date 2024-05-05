@@ -6,6 +6,7 @@ pipeline{
         {
             steps{
                 sh '''
+                    pwd
                     "git pull"
                     "terrafile -f ./env-dev/Terrafile"
                     "terraform init --backend-config=env-dev/backend-dev.tfvars"
