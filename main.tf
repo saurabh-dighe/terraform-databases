@@ -3,11 +3,11 @@ module "tf-module-mongodb" {
   ENV                 = var.ENV
 }
 
-# module "tf-module-redis" {
-#   source              = "./vendor/modules/redis"
-#   ENV                 = var.ENV
-#   ZONE                = var.ZONE
-# }
+module "tf-module-redis" {
+  source              = "./vendor/modules/redis"
+  ENV                 = var.ENV
+  ZONE                = var.ZONE
+}
 
 # module "tf-module-mysql" {
 #   source              = "./vendor/modules/mysql"

@@ -2,9 +2,9 @@ mongodb:
     source:  "https://github.com/saurabh-dighe/tf-module-mongodb.git"
     version: "main"
 
-# redis:
-#     source:  "https://github.com/saurabh-dighe/tf-module-redis.git"
-#     version: "main"
+redis:
+    source:  "https://github.com/saurabh-dighe/tf-module-redis.git"
+    version: "main"
 
 # mysql:
 #     source:  "https://github.com/saurabh-dighe/tf-module-mysql.git"
