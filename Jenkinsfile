@@ -5,13 +5,15 @@ pipeline{
         stage("Terraform Init")
         {
             steps{
-                sh '''
-                    cd /home/centos/terraform-databases
-                    git pull
-                    terrafile -f ./env-dev/Terrafile
-                    terraform init --backend-config=env-dev/backend-dev.tfvars
-                '''
-            }            
+                sh "cd /home/centos/terraform-databases; git pull"
+            } 
+            steps{
+                sh  "terrafile -f ./env-dev/Terrafile"
+                sh  "terraform init --backend-config=env-dev/backend-dev.tfvars"
+            } 
+            steps{
+                sh "terraform init --backend-config=env-dev/backend-dev.tfvars"
+            }           
         }
         stage("Terraform Plan")
         {
