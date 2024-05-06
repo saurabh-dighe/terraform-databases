@@ -1,3 +1,3 @@
-bucket   = "terraform-statefile-saurabh"
-key      = "dev/terraform-databases/teraform.tfstate"
+bucket   = "saurabh-bucket-tf"
+key      = "dev/tf-databases/teraform.tfstate"
 region   = "us-east-1"
