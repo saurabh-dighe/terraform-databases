@@ -8,10 +8,10 @@ module "tf-module-redis" {
   ENV                 = var.ENV
 }
 
-# module "tf-module-mysql" {
-#   source              = "./vendor/modules/mysql"
-#   ENV                 = var.ENV
-# }
+module "tf-module-mysql" {
+  source              = "./vendor/modules/mysql"
+  ENV                 = var.ENV
+}
 
 # module "tf-module-rabbitmq" {
 #   source              = "./vendor/modules/rabbitmq"
