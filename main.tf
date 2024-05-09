@@ -13,7 +13,7 @@ module "tf-module-mysql" {
   ENV                 = var.ENV
 }
 
-# module "tf-module-rabbitmq" {
-#   source              = "./vendor/modules/rabbitmq"
-#   ENV                 = var.ENV
-# }
+module "tf-module-rabbitmq" {
+  source              = "./vendor/modules/rabbitmq"
+  ENV                 = var.ENV
+}
