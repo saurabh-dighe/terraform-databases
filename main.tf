@@ -2,8 +2,6 @@ module "tf-module-mongodb" {
   source                = "./vendor/modules/mongodb"
   ENV                   = var.ENV
   DOCDB_ENGINE_VERSION  = var.DOCDB_ENGINE_VERSION
-  DOCDB_USENAME         = var.DOCDB_USENAME
-  DOCDB_PASSWORD        = var.DOCDB_PASSWORD
   DOCDB_INSTANCE_TYPE   = var.DOCDB_INSTANCE_TYPE
   DOCDB_INSTANCE_COUNT  = var.DOCDB_INSTANCE_COUNT
   DOCDB_PORT            = var.DOCDB_PORT
