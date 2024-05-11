@@ -6,6 +6,7 @@ variable "DOCDB_USENAME" {}
 variable "DOCDB_PASSWORD" {}
 variable "DOCDB_INSTANCE_TYPE" {}
 variable "DOCDB_INSTANCE_COUNT" {}
+variable "DOCDB_PORT" {}
 
 #MYSQL VARIABLE
 variable "MYSQL_ENGINE" {}
@@ -13,6 +14,7 @@ variable "MYSQL_ENGINE_VERSION" {}
 variable "MYSQL_INSTANCE_CLASS" {}
 variable "MYSQL_FAMILY" {}
 variable "MYSQL_STORAGE" {}
+variable "MYSQL_PORT" {}
 
 #Redis Variable
 variable "REDIS_ENGINE" {}

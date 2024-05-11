@@ -6,6 +6,7 @@ module "tf-module-mongodb" {
   DOCDB_PASSWORD        = var.DOCDB_PASSWORD
   DOCDB_INSTANCE_TYPE   = var.DOCDB_INSTANCE_TYPE
   DOCDB_INSTANCE_COUNT  = var.DOCDB_INSTANCE_COUNT
+  DOCDB_PORT            = var.DOCDB_PORT
 }
 
 module "tf-module-redis" {
@@ -27,6 +28,7 @@ module "tf-module-mysql" {
   MYSQL_INSTANCE_CLASS = var.MYSQL_INSTANCE_CLASS
   MYSQL_FAMILY         = var.MYSQL_FAMILY
   MYSQL_STORAGE        = var.MYSQL_STORAGE
+  MYSQL_PORT           = var.MYSQL_PORT
 }
 
 module "tf-module-rabbitmq" {
