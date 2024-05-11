@@ -18,7 +18,7 @@ MYSQL_STORAGE                = 10 #In GB
 REDIS_ENGINE                 = "redis"
 REDIS_NOTE_TYPE              = "cache.t3.small"
 REDIS_CASHE_NODE             = 1
-REDIS_ENDINE_VERSION         = "6.0"
+REDIS_ENGINE_VERSION         = "6.0"
 REDIS_PORT                   = 6379
 REDIS_FAMILY                 = "redis6.x"
 
