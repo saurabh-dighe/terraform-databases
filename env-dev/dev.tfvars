@@ -15,6 +15,7 @@ MYSQL_INSTANCE_CLASS         = "db.t3.micro"
 MYSQL_FAMILY                 = "mysql5.7"   
 MYSQL_STORAGE                = 10 #In GB
 MYSQL_PORT                   = 3306
+MYSQL_SKIP_SNAPSHOT          = true
 
 #Redis Variables
 REDIS_ENGINE                 = "redis"

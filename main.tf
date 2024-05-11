@@ -29,6 +29,7 @@ module "tf-module-mysql" {
   MYSQL_FAMILY         = var.MYSQL_FAMILY
   MYSQL_STORAGE        = var.MYSQL_STORAGE
   MYSQL_PORT           = var.MYSQL_PORT
+  MYSQL_SKIP_SNAPSHOT  = var.MYSQL_SKIP_SNAPSHOT
 }
 
 module "tf-module-rabbitmq" {

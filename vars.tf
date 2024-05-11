@@ -15,6 +15,7 @@ variable "MYSQL_INSTANCE_CLASS" {}
 variable "MYSQL_FAMILY" {}
 variable "MYSQL_STORAGE" {}
 variable "MYSQL_PORT" {}
+variable "MYSQL_SKIP_SNAPSHOT" {}
 
 #Redis Variable
 variable "REDIS_ENGINE" {}
