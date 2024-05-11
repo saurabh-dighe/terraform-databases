@@ -1,6 +1,9 @@
 module "tf-module-mongodb" {
-  source              = "./vendor/modules/mongodb"
-  ENV                 = var.ENV
+  source                = "./vendor/modules/mongodb"
+  ENV                   = var.ENV
+  DOCDB_ENGINE_VERSION  = var.DOCDB_ENGINE_VERSION
+  DOCDB_USENAME         = var.DOCDB_USENAME
+  DOCDB_PASSWORD        = var.DOCDB_PASSWORD
 }
 
 module "tf-module-redis" {
