@@ -27,3 +27,4 @@ REDIS_FAMILY                 = "redis6.x"
 
 #RabbitMQ Variables
 RABIIT_MQ_INSTANCE_TYPE      = "t3.medium"
+RABBITMQ_PORT                = 5672

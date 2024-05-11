@@ -36,4 +36,5 @@ module "tf-module-rabbitmq" {
   source                  = "./vendor/modules/rabbitmq"
   ENV                     = var.ENV
   RABIIT_MQ_INSTANCE_TYPE = var.RABIIT_MQ_INSTANCE_TYPE
+  RABBITMQ_PORT           = var.RABBITMQ_PORT
 }
