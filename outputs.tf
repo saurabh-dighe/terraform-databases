@@ -3,9 +3,9 @@ output "DOCDB_ENDPOINT" {
 }
 
 output "REDIS_ENDPOINT" {
-  value = module.tf-module-redis.DOCDB_ENDPOINT
+  value = module.tf-module-redis.REDIS_ENDPOINT
 }
 
 output "MYSQL_ENDPOINT" {
-  value = module.tf-module-mysql.DOCDB_ENDPOINT
+  value = module.tf-module-mysql.MYSQL_ENDPOINT
 }
